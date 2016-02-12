@@ -1,0 +1,32 @@
+{
+  "name": "maximal-rectangle",
+  "version": "1.1.0",
+  "description": "solver for the maximal rectangle problem",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/tape ./test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socialtables/maximal-rectangle.git"
+  },
+  "keywords": [
+    "geometry",
+    "2d"
+  ],
+  "author": "Social Tables",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/socialtables/maximal-rectangle/issues"
+  },
+  "homepage": "https://github.com/socialtables/maximal-rectangle#readme",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "geometry-utils": "^1.2.0"
+  }
+}
