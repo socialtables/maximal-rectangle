@@ -1,0 +1,32 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "require": true
+    },
+    "rules": {
+        "brace-style": [2, "stroustrup", { "allowSingleLine": false }],
+        "camelcase": 0,
+        "default-case": 2,
+        "indent": [2, "tab", {"SwitchCase": 1}],
+        "no-catch-shadow": 2,
+        "no-eq-null": 2,
+        "no-floating-decimal": 2,
+        "no-nested-ternary": 2,
+        "no-param-reassign": 2,
+        "no-self-compare": 2,
+        "no-throw-literal": 2,
+        "no-undefined": 2,
+        "no-void": 2,
+        "quotes": [1, "double"],
+        "semi": 2,
+        "space-after-keywords": [2, "always"],
+        "strict": [2, "never"],
+        "wrap-iife": [2, "outside"]
+    },
+    "plugins": [
+
+    ]
+}

@@ -20,8 +20,8 @@ test('it is a function', (t) => {
 
 test('it can solve our test set', (t) => {
     var solution = solver(testSetForSolver);
-    t.ok(solution.ll.row === 1 && solution.ll.col === 1 , "Solved the northwest corner.");
-    t.ok(solution.ur.row === 3 && solution.ur.col === 3 , "Solved the southeast corner.");
+    t.deepEqual(solution.ll, { row: 1, col: 1 }, "Solving the northwest corner.");
+    t.deepEqual(solution.ur, { row: 3, col: 3 }, "Solving the southeast corner.");
     t.end();
 });
 
